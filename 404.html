@@ -19,9 +19,9 @@
                     <h1>404</h1>
                     <h2>Máy chủ gặp sự cố!</h2>
                     <p>Trang bạn đang tìm đã bị di chuyển, xóa, đổi tên hoặc không tồn tại.</p>
-                    <p>Nếu không có điều gì diễn ra, sẽ tự động về trang chủ trong <span id="countdown"></span>s</p>
+                    <p>Nếu không có điều gì diễn ra, làm ơn về trang chủ</p>
                     <a href="../" class="btn">Trở về trang chủ</a>
-                    <a href="https://zalo.me/g/zxqlfs050" class="btn btn-light-blue">liên hệ chúng tôi</a>
+                    <a href="https://discord.gg/nxSJWYMz" class="btn btn-light-blue">liên hệ chúng tôi</a>
                 </div>              
             </div>
             <div class="col-xs-12 col-sm-5 col-lg-5 text-center">                
@@ -37,22 +37,5 @@
     <script src="./js/modernizr.custom.js" type="text/javascript"></script>
     <script src="./js/jquery.nicescroll.min.js" type="text/javascript"></script>
     <script src="./js/scripts.js" type="text/javascript"></script>
-    <script>/*
-        ----------------------------------------------------------------------
-       Countdown
-        ----------------------------------------------------------------------
-        */
-        function countdown(time) {
-           if (time > 0) {
-               time--;
-               document.getElementById('countdown').textContent = time;
-               setTimeout(function() {
-                   countdown(time);
-               }, 1000);
-           } else {
-               window.location.href = '../';
-           }
-       }
-       countdown(16);</script>
 </body>
 </html>
